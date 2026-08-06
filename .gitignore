@@ -1,0 +1,11 @@
+# KiCad temporary and backup files
+*-bak
+*.bak
+*.bck
+*.kicad_prl
+*-backups/
+
+# Manufacturing outputs (optional to ignore, recommended to generate via CI/CD or releases)
+*.gbr
+*.drl
+*.rpt

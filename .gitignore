@@ -4,6 +4,9 @@
 *.bck
 *.kicad_prl
 *-backups/
+~*.lck
+\#auto_saved_files#
+fp-info-cache
 
 # Manufacturing outputs (optional to ignore, recommended to generate via CI/CD or releases)
 *.gbr

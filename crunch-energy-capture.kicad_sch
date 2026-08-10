@@ -150,6 +150,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -1064,82 +1225,674 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:UF5408"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UF5408"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UF5408_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UF5408_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:EPM1210SJ"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 22.86 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "EPM1210SJ"
+				(at 22.86 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Library:EPM1210SJ_TMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://static.chipdip.ru/lib/357/DOC012357581.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Isolated DC-DC converter, wide input range. 12V output, 12W, 110-450V input"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Tamura"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "EPM1210SJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "MT7382-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "EPM1210SJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "EPM1210SJ_TMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EPM1210SJ_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 38.1 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 -15.24) (xy 38.1 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "SECW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "+DCOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "-DCOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 45.72 0 180)
+					(length 7.62)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 45.72 -2.54 180)
+					(length 7.62)
+					(name "+DCIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 45.72 -5.08 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 45.72 -7.62 180)
+					(length 7.62)
+					(name "-DCIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 45.72 -10.16 180)
+					(length 7.62)
+					(name "VCCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 101.6 60.96)
+		(at 210.82 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00194b94-e111-4b88-9ca1-cf2bbbd243e4")
+	)
+	(junction
+		(at 101.6 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03db8d3c-699e-450c-9715-bd18c06c4449")
 	)
 	(junction
-		(at 76.2 86.36)
+		(at 76.2 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a4f6919-3361-4cf6-b66d-ca76da7a6a80")
 	)
 	(junction
-		(at 76.2 99.06)
+		(at 76.2 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b268f8c-652c-4fbc-89d5-8959f6017e08")
 	)
 	(junction
-		(at 76.2 60.96)
+		(at 180.34 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1238c6c6-863d-45aa-8f80-8803acb33dd0")
+	)
+	(junction
+		(at 76.2 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "295dc2bc-0141-47a9-8862-19a08b6cd383")
 	)
 	(junction
-		(at 116.84 99.06)
+		(at 210.82 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33be64a4-7b7d-496a-b9bd-9731316a8098")
+	)
+	(junction
+		(at 116.84 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33dcb62b-7c72-44db-b507-685d290119ec")
 	)
 	(junction
-		(at 39.37 76.2)
+		(at 39.37 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ca34a2-c526-4127-896d-32b9dc56ff50")
 	)
 	(junction
-		(at 124.46 99.06)
+		(at 295.91 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "508d79fc-b030-437b-822b-0650076a1b4a")
+	)
+	(junction
+		(at 124.46 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67d2f452-55a5-436b-9274-4ca3b0753fc1")
 	)
 	(junction
-		(at 116.84 60.96)
+		(at 295.91 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6836c8f8-6a52-43fa-966f-4a68f76db26c")
+	)
+	(junction
+		(at 200.66 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c4748f2-14c5-4cc3-ae60-8419f73e9166")
+	)
+	(junction
+		(at 170.18 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7379d588-46ba-488e-9e6d-fda0e92036e8")
+	)
+	(junction
+		(at 116.84 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "784657bb-5df8-4272-9f8c-a5234ddd6f3c")
 	)
 	(junction
-		(at 116.84 81.28)
+		(at 190.5 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86167c72-2ddb-4d2e-a64a-1ab4844736c8")
+	)
+	(junction
+		(at 116.84 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8edcf238-8cbe-461c-971b-0d3629eee4f9")
 	)
 	(junction
-		(at 60.96 76.2)
+		(at 180.34 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a43e2075-58df-4050-8367-457fb55f673c")
+	)
+	(junction
+		(at 60.96 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5667bed-0e5a-4517-b88d-cb038852888c")
 	)
 	(junction
-		(at 39.37 86.36)
+		(at 39.37 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a84fb2f7-e71e-4fbe-bed6-c717bcccfa43")
 	)
 	(junction
-		(at 124.46 88.9)
+		(at 170.18 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b12709f6-e3a2-4231-9f57-f22333fc5408")
+	)
+	(junction
+		(at 133.35 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f918e1-4219-4682-a6f6-b69d63c1c681")
+	)
+	(junction
+		(at 160.02 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c68c89af-f066-497c-887e-2808adab2419")
+	)
+	(junction
+		(at 144.78 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5e41dc8-ed38-4261-8a55-8d78c825c425")
+	)
+	(junction
+		(at 160.02 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dec733dc-975b-457b-b0b5-3b89c60ff426")
+	)
+	(junction
+		(at 190.5 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7d30ec3-66eb-432f-b671-5f1a503f5615")
+	)
+	(junction
+		(at 200.66 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed90d708-f56c-45f4-bf64-1653abb68f60")
+	)
+	(junction
+		(at 124.46 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f979cc42-41be-4716-bf63-71b04c6629fe")
 	)
 	(wire
 		(pts
-			(xy 39.37 71.12) (xy 39.37 76.2)
+			(xy 39.37 73.66) (xy 39.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 77.47) (xy 39.37 76.2)
+			(xy 39.37 80.01) (xy 39.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 116.84 67.31)
+			(xy 116.84 63.5) (xy 116.84 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1922,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 124.46 99.06)
+			(xy 210.82 91.44) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3760df-ff5f-429e-845b-b2291cf3a37a")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 73.66) (xy 134.62 73.66)
+			(xy 137.16 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 88.9) (xy 124.46 88.9)
+			(xy 120.65 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 133.35 88.9)
+			(xy 124.46 91.44) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1209,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 81.28) (xy 132.08 73.66)
+			(xy 132.08 83.82) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1219,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 127 73.66)
+			(xy 127 83.82) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 85.09) (xy 39.37 86.36)
+			(xy 39.37 87.63) (xy 39.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +2002,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 76.2) (xy 60.96 76.2)
+			(xy 228.6 63.5) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbe4587-22f9-45d3-bb48-2d247f4aca04")
+	)
+	(wire
+		(pts
+			(xy 39.37 78.74) (xy 60.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 139.7 73.66)
+			(xy 142.24 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 76.2 99.06)
+			(xy 60.96 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1269,7 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 101.6 81.28)
+			(xy 101.6 81.28) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1279,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 127 81.28)
+			(xy 129.54 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1289,7 +2062,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 60.96) (xy 101.6 63.5)
+			(xy 180.34 63.5) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477bb3a7-e9c8-4def-9696-1863322c2615")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1a8451-11f0-409f-a35e-9f25cd58c5f3")
+	)
+	(wire
+		(pts
+			(xy 101.6 63.5) (xy 101.6 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 81.28) (xy 116.84 82.55)
+			(xy 116.84 83.82) (xy 116.84 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1309,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 133.35 90.17)
+			(xy 133.35 91.44) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1319,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 39.37 91.44)
+			(xy 39.37 88.9) (xy 39.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +2122,27 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 124.46 88.9)
+			(xy 200.66 73.66) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54341ffb-b661-46fd-9558-9c6311c90112")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.09) (xy 234.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559ee017-5095-418d-b0b6-4eab452e105d")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +2152,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 144.78 60.96)
+			(xy 285.75 78.74) (xy 295.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59849db4-0bfa-4bc1-a97f-8d3270d28cd7")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +2172,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 139.7 81.28)
+			(xy 160.02 63.5) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d27dbc4-af98-4e78-83fa-b25773069872")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 124.46 90.17)
+			(xy 124.46 91.44) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +2202,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 96.52) (xy 76.2 99.06)
+			(xy 170.18 63.5) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e74270-5e9d-438f-a03d-1fc49d7606e9")
+	)
+	(wire
+		(pts
+			(xy 170.18 63.5) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c487a7-4e99-4782-8f15-108c7d2e120f")
+	)
+	(wire
+		(pts
+			(xy 76.2 99.06) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 73.66) (xy 60.96 76.2)
+			(xy 60.96 76.2) (xy 60.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 81.28) (xy 116.84 81.28)
+			(xy 101.6 83.82) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +2252,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 76.2 86.36)
+			(xy 180.34 81.28) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0a8f3b-1b93-48ad-bef4-2275e0ba9977")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 133.35 99.06)
+			(xy 133.35 100.33) (xy 133.35 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 60.96) (xy 116.84 60.96)
+			(xy 101.6 63.5) (xy 116.84 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +2292,27 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 76.2 86.36)
+			(xy 180.34 63.5) (xy 190.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8630d9bd-49b6-437b-9687-84a55e230b41")
+	)
+	(wire
+		(pts
+			(xy 200.66 101.6) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a254b81-551c-4c99-8ec4-8afd591542e9")
+	)
+	(wire
+		(pts
+			(xy 39.37 88.9) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 137.16 73.66)
+			(xy 137.16 83.82) (xy 137.16 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +2332,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 116.84 99.06)
+			(xy 228.6 80.01) (xy 234.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960e4422-cca4-4899-aaa4-0b41d0a69362")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 116.84 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 132.08 81.28)
+			(xy 134.62 83.82) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1469,7 +2362,47 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 96.52) (xy 60.96 99.06)
+			(xy 200.66 81.28) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b27d800-cfd7-462b-818e-881a2c7f1c94")
+	)
+	(wire
+		(pts
+			(xy 210.82 101.6) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d1da79-59e9-4aae-bb90-fcebf4e5f77d")
+	)
+	(wire
+		(pts
+			(xy 154.94 63.5) (xy 160.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37caf10-26d5-4862-8d13-3a20c2256a1f")
+	)
+	(wire
+		(pts
+			(xy 295.91 78.74) (xy 309.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66334f7-2c1e-4cfb-961a-497fec329afd")
+	)
+	(wire
+		(pts
+			(xy 60.96 99.06) (xy 60.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +2412,37 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 124.46 73.66)
+			(xy 280.67 80.01) (xy 285.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a833e8f8-c8c9-4c83-b073-64665e7d425b")
+	)
+	(wire
+		(pts
+			(xy 285.75 85.09) (xy 285.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89af32a-f152-490a-9691-44f597e0e685")
+	)
+	(wire
+		(pts
+			(xy 280.67 85.09) (xy 285.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacfccd7-7696-4783-b26a-63c237fd79da")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 133.35 99.06)
+			(xy 124.46 101.6) (xy 133.35 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +2462,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 116.84 81.28)
+			(xy 144.78 63.5) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7242bad-d0e2-421f-9921-0777c709c917")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 60.96) (xy 76.2 60.96)
+			(xy 60.96 63.5) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 76.2 66.04)
+			(xy 76.2 63.5) (xy 76.2 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 86.36) (xy 76.2 88.9)
+			(xy 76.2 88.9) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 76.2) (xy 60.96 88.9)
+			(xy 60.96 78.74) (xy 60.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +2522,47 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 66.04) (xy 60.96 60.96)
+			(xy 160.02 63.5) (xy 170.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb0479f-7576-4a2f-8421-70917bf573a6")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c007b4fa-cd33-4b06-b83d-08b8672f1a16")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2331dc4-26b8-4d99-bb43-b6f7968f8340")
+	)
+	(wire
+		(pts
+			(xy 210.82 63.5) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c342cb85-a09a-413a-9900-85205f3165ca")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.58) (xy 60.96 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +2572,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 116.84 99.06)
+			(xy 210.82 63.5) (xy 228.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacbb681-6265-4276-9453-6de07b0f3aa0")
+	)
+	(wire
+		(pts
+			(xy 170.18 91.44) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfebe94-c21a-4353-8e9b-2c63b414f2a8")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 116.84 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1569,7 +2602,57 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 81.28) (xy 142.24 73.66)
+			(xy 190.5 63.5) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1061697-999f-4929-b26a-65ebb4450a8b")
+	)
+	(wire
+		(pts
+			(xy 200.66 63.5) (xy 210.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcffb689-7a20-4121-a1b5-12809077896b")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc1f38c-c490-402d-9df1-3e0c8859db95")
+	)
+	(wire
+		(pts
+			(xy 285.75 80.01) (xy 285.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de26318e-57c6-4ecf-a6c1-5a8ca9c4ed14")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bb79c4-7903-4909-b598-e1944c840559")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 142.24 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +2662,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 129.54 73.66)
+			(xy 285.75 86.36) (xy 295.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed07d4d8-f839-4133-a9cb-deec19770ad2")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 101.6 60.96)
+			(xy 76.2 63.5) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 124.46 99.06)
+			(xy 124.46 100.33) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +2702,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 142.24 81.28)
+			(xy 180.34 101.6) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f152c44d-d987-4f80-bb34-b1dec9f79628")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +2722,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 144.78 60.96)
+			(xy 160.02 101.6) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f220051e-51b1-49e1-9afa-e44fde6855be")
+	)
+	(wire
+		(pts
+			(xy 116.84 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1627,9 +2740,125 @@
 		)
 		(uuid "f7f4f51a-bba9-42ac-ac72-db8b4f7589ba")
 	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc22ce3f-8617-45e1-8722-438c17a10ae0")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc52989a-5b34-4eef-80f2-f35dfbe8bc09")
+	)
+	(wire
+		(pts
+			(xy 295.91 86.36) (xy 309.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2f9ff7-09be-437d-9ebf-ea7fb8220835")
+	)
+	(symbol
+		(lib_id "Diode:UF5408")
+		(at 151.13 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "094178b9-ac0e-4be6-9b2a-e23cd2e0f0e9")
+		(property "Reference" "D12"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF5408"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 151.13 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f08554f-c728-41c6-9e98-d4f6b80b14f1")
+		)
+		(pin "2"
+			(uuid "5e55a1a9-329c-46d0-a9af-65c62aba6dc7")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 93.98 0)
+		(at 133.35 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1638,15 +2867,6 @@
 		(fields_autoplaced yes)
 		(uuid "0a600155-cea4-49cd-aa1a-e2d545d0ef5e")
 		(property "Reference" "C2"
-			(at 137.16 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
 			(at 137.16 95.2499 0)
 			(effects
 				(font
@@ -1655,8 +2875,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.3152 97.79 0)
+		(property "Value" "10nF"
+			(at 137.16 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 134.3152 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +2894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 93.98 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +2903,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 93.98 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,8 +2927,218 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 180.34 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a871f98-2584-4249-b7bd-da82a2f83a08")
+		(property "Reference" "C7"
+			(at 183.388 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 183.388 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 181.3052 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF, 450V Aluminum Electrolytic Capacitor, 35mm dia, 10mm pin spacing"
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "450V"
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1856b730-77c0-4f0d-b908-cd242d41443c")
+		)
+		(pin "1"
+			(uuid "92c62e2f-3e4a-461c-b458-9bdac47ca49f")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 210.82 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2436e067-70e3-4ad0-be63-338807ae8e5d")
+		(property "Reference" "C10"
+			(at 213.868 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 213.868 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 211.7852 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF, 450V Aluminum Electrolytic Capacitor, 35mm dia, 10mm pin spacing"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "450V"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8929fea8-c4ed-499e-8aa6-f01f8a74d418")
+		)
+		(pin "1"
+			(uuid "bc402576-9a42-4c49-9319-7bb20089c28c")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 101.6 74.93 90)
+		(at 101.6 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1707,7 +3146,7 @@
 		(dnp no)
 		(uuid "2605db5c-b379-447b-977c-2a95e6a799e8")
 		(property "Reference" "D13"
-			(at 97.282 74.422 90)
+			(at 97.282 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +3154,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 97.282 76.708 90)
+			(at 97.282 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +3162,7 @@
 			)
 		)
 		(property "Footprint" "Library:LED_Kingbright-SMD3528_3.5x2.8mm"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +3171,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528LSECKT-J3.pdf"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +3180,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +3189,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +3198,7 @@
 			)
 		)
 		(property "MFG" "KingBright"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +3207,7 @@
 			)
 		)
 		(property "MPN" "AA3528LSECKT/J3"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +3216,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "754-2068-1-ND"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +3225,7 @@
 			)
 		)
 		(property "Brightness" "120"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +3234,7 @@
 			)
 		)
 		(property "ViewAngle" "120"
-			(at 101.6 74.93 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +3243,7 @@
 			)
 		)
 		(property "Color" "Red"
-			(at 97.282 78.74 90)
+			(at 97.282 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +3267,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1.5KExxA")
-		(at 76.2 92.71 270)
+		(at 76.2 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1836,7 +3275,7 @@
 		(dnp no)
 		(uuid "29a60eca-e931-4739-90f7-15f8741f79e9")
 		(property "Reference" "D4"
-			(at 78.74 91.4399 90)
+			(at 78.74 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +3284,7 @@
 			)
 		)
 		(property "Value" "600V"
-			(at 78.74 93.726 90)
+			(at 78.74 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +3293,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 71.12 92.71 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +3302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_1_5ke_datasheet.pdf?assetguid=9d02c7d2-86a5-4bff-9251-966d6af02bf7"
-			(at 76.2 91.44 0)
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +3311,7 @@
 			)
 		)
 		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
-			(at 76.2 92.71 0)
+			(at 76.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +3320,7 @@
 			)
 		)
 		(property "MFG" "LITTELFUSE INC (VA)"
-			(at 76.2 92.71 90)
+			(at 76.2 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +3329,7 @@
 			)
 		)
 		(property "MPN" "1.5KE600A"
-			(at 82.55 96.266 90)
+			(at 82.55 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +3337,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "F7137CT-ND"
-			(at 76.2 92.71 90)
+			(at 76.2 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +3362,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_SCR_KAG")
-		(at 116.84 86.36 0)
+		(at 116.84 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1932,15 +3371,6 @@
 		(dnp no)
 		(uuid "2dd29ad7-4a27-44f8-a56a-ba5c6bca02d2")
 		(property "Reference" "D5"
-			(at 114.3 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCR12DSNT4G"
 			(at 114.3 87.6299 0)
 			(effects
 				(font
@@ -1949,8 +3379,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MCR12DSNT4G"
+			(at 114.3 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 116.84 86.36 90)
+			(at 116.84 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +3398,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9/MCR12DSM_N.pdf"
-			(at 116.84 86.36 90)
+			(at 116.84 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +3407,7 @@
 			)
 		)
 		(property "Description" "Silicon controlled rectifier, cathode/anode/gate"
-			(at 116.84 86.36 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +3416,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "MCR12DSNT4GOSCT-ND"
-			(at 116.84 86.36 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +3425,7 @@
 			)
 		)
 		(property "MFG" "LITTELFUSE INC (VA)"
-			(at 116.84 86.36 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +3434,7 @@
 			)
 		)
 		(property "MPN" "MCR12DSNT4G"
-			(at 116.84 86.36 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +3462,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 144.78 77.47 270)
+		(at 144.78 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2031,7 +3470,7 @@
 		(dnp no)
 		(uuid "2e9998af-07f4-48e1-8d73-1a5fcaafb399")
 		(property "Reference" "D10"
-			(at 143.51 83.566 90)
+			(at 143.51 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +3479,7 @@
 			)
 		)
 		(property "Value" "75V"
-			(at 143.256 85.598 90)
+			(at 143.256 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +3488,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 144.78 77.47 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +3497,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"
-			(at 144.78 77.47 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +3506,7 @@
 			)
 		)
 		(property "Description" "Zener diode, 500mW, 75V"
-			(at 144.78 77.47 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +3515,7 @@
 			)
 		)
 		(property "MFG" "Nexperia"
-			(at 144.78 77.47 90)
+			(at 144.78 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +3524,7 @@
 			)
 		)
 		(property "MPN" "BZX79-C75,133"
-			(at 144.78 77.47 90)
+			(at 144.78 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +3533,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "1727-6151-1-ND"
-			(at 144.78 77.47 90)
+			(at 144.78 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,8 +3557,324 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 160.02 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "371a61ee-9a9c-47d9-95e6-1a2cd00c67e4")
+		(property "Reference" "C5"
+			(at 163.068 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 163.068 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 160.9852 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF, 450V Aluminum Electrolytic Capacitor, 35mm dia, 10mm pin spacing"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "450V"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "feb73851-f595-45ca-822f-9a8289b52452")
+		)
+		(pin "1"
+			(uuid "c844a04b-8953-47e1-8c66-67b26f6f3107")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 295.91 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db0619e-19c4-4958-8ec2-9ff6f80cb558")
+		(property "Reference" "C3"
+			(at 299.72 80.3909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330uF"
+			(at 299.72 82.9309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 296.8752 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4067_A750"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330uF, 25V Polymer Capacitor"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A750KS337M1EAAE018"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "399-A750KS337M1EAAE018-ND"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7619ced8-071d-470f-9da1-9fc2a0827b80")
+		)
+		(pin "1"
+			(uuid "817426d5-8347-435f-b9a9-fefa9373cc34")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 200.66 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dcbd944-08d8-46a8-915c-b6d4ae7ae0ea")
+		(property "Reference" "C9"
+			(at 203.708 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 203.708 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 201.6252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF, 450V Aluminum Electrolytic Capacitor, 35mm dia, 10mm pin spacing"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "450V"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c3851e1-59c2-4d1d-9ed7-150ebc7131c6")
+		)
+		(pin "1"
+			(uuid "08ab8b6e-a60d-4692-9db8-9b36cd8e117a")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
-		(at 139.7 77.47 270)
+		(at 139.7 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2127,7 +3882,7 @@
 		(dnp no)
 		(uuid "67003478-d28d-4f51-a149-25c0f84e9f88")
 		(property "Reference" "D9"
-			(at 138.43 83.566 90)
+			(at 138.43 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +3891,7 @@
 			)
 		)
 		(property "Value" "75V"
-			(at 138.176 85.598 90)
+			(at 138.176 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +3900,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 139.7 77.47 0)
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +3909,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"
-			(at 139.7 77.47 0)
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +3918,7 @@
 			)
 		)
 		(property "Description" "Zener diode, 500mW, 75V"
-			(at 139.7 77.47 0)
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +3927,7 @@
 			)
 		)
 		(property "MFG" "Nexperia"
-			(at 139.7 77.47 90)
+			(at 139.7 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +3936,7 @@
 			)
 		)
 		(property "MPN" "BZX79-C75,133"
-			(at 139.7 77.47 90)
+			(at 139.7 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +3945,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "1727-6151-1-ND"
-			(at 139.7 77.47 90)
+			(at 139.7 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +3970,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 134.62 77.47 270)
+		(at 134.62 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2223,7 +3978,7 @@
 		(dnp no)
 		(uuid "767e8c7b-13ea-4f6a-8339-3b117b8011fc")
 		(property "Reference" "D8"
-			(at 133.35 83.566 90)
+			(at 133.35 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +3987,7 @@
 			)
 		)
 		(property "Value" "75V"
-			(at 133.096 85.598 90)
+			(at 133.096 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +3996,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 134.62 77.47 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +4005,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"
-			(at 134.62 77.47 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +4014,7 @@
 			)
 		)
 		(property "Description" "Zener diode, 500mW, 75V"
-			(at 134.62 77.47 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +4023,7 @@
 			)
 		)
 		(property "MFG" "Nexperia"
-			(at 134.62 77.47 90)
+			(at 134.62 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +4032,7 @@
 			)
 		)
 		(property "MPN" "BZX79-C75,133"
-			(at 134.62 77.47 90)
+			(at 134.62 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +4041,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "1727-6151-1-ND"
-			(at 134.62 77.47 90)
+			(at 134.62 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +4066,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 124.46 77.47 270)
+		(at 124.46 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2319,7 +4074,7 @@
 		(dnp no)
 		(uuid "7c9ab10c-764f-49d6-acf1-1ad56e05515c")
 		(property "Reference" "D6"
-			(at 119.634 76.962 90)
+			(at 119.634 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +4083,7 @@
 			)
 		)
 		(property "Value" "75V"
-			(at 119.38 79.248 90)
+			(at 119.38 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +4092,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 124.46 77.47 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +4101,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"
-			(at 124.46 77.47 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +4110,7 @@
 			)
 		)
 		(property "Description" "Zener diode, 500mW, 75V"
-			(at 124.46 77.47 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +4119,7 @@
 			)
 		)
 		(property "MFG" "Nexperia"
-			(at 124.46 77.47 90)
+			(at 124.46 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +4128,7 @@
 			)
 		)
 		(property "MPN" "BZX79-C75,133"
-			(at 124.46 77.47 90)
+			(at 124.46 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +4137,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "1727-6151-1-ND"
-			(at 124.46 77.47 90)
+			(at 124.46 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +4162,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 39.37 81.28 0)
+		(at 39.37 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2416,15 +4171,6 @@
 		(fields_autoplaced yes)
 		(uuid "7e0a1cd7-8542-4e47-93be-4d8cd21d84d0")
 		(property "Reference" "C1"
-			(at 43.18 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
 			(at 43.18 82.5499 0)
 			(effects
 				(font
@@ -2433,8 +4179,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "C"
+			(at 43.18 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3"
-			(at 40.3352 85.09 0)
+			(at 40.3352 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +4198,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cde.com/resources/catalogs/PPB.pdf"
-			(at 39.37 81.28 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +4207,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 39.37 81.28 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +4216,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "1572-1358-ND"
-			(at 39.37 81.28 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +4225,7 @@
 			)
 		)
 		(property "MFG" "ILLINOIS CAPACITOR"
-			(at 39.37 81.28 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +4234,7 @@
 			)
 		)
 		(property "MPN" "222PPB162K"
-			(at 39.37 81.28 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +4259,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N53xxB")
-		(at 116.84 71.12 270)
+		(at 116.84 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2512,7 +4267,7 @@
 		(dnp no)
 		(uuid "80295657-8cbe-424f-b1a2-d039a35672a8")
 		(property "Reference" "D11"
-			(at 107.442 71.882 90)
+			(at 107.442 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +4276,7 @@
 			)
 		)
 		(property "Value" "1N5337B"
-			(at 107.188 74.168 90)
+			(at 107.188 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +4285,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201_P15.24mm_Horizontal"
-			(at 112.395 71.12 0)
+			(at 112.395 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +4294,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/1n5333b-d.pdf"
-			(at 116.84 71.12 0)
+			(at 116.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +4303,7 @@
 			)
 		)
 		(property "Description" "5000mW Zener Diode, DO-201"
-			(at 116.84 71.12 0)
+			(at 116.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +4312,7 @@
 			)
 		)
 		(property "MFG" "OnSemi"
-			(at 116.84 71.12 90)
+			(at 116.84 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +4321,7 @@
 			)
 		)
 		(property "MPN" "1N5337BRLG"
-			(at 116.84 71.12 90)
+			(at 116.84 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +4330,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "1N5337BRLGOSCT-ND"
-			(at 116.84 71.12 90)
+			(at 116.84 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +4339,7 @@
 			)
 		)
 		(property "Voltage" "4.7V"
-			(at 109.22 76.454 90)
+			(at 109.22 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +4363,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 93.98 0)
+		(at 124.46 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2617,15 +4372,6 @@
 		(fields_autoplaced yes)
 		(uuid "92ecda75-8424-45fd-9b25-3fac27bda54c")
 		(property "Reference" "R1"
-			(at 127 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
 			(at 127 95.2499 0)
 			(effects
 				(font
@@ -2634,8 +4380,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 122.682 93.98 90)
+		(property "Value" "1K"
+			(at 127 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 122.682 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +4399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 93.98 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +4408,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 93.98 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +4433,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1.5KExxA")
-		(at 76.2 69.85 270)
+		(at 76.2 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2686,7 +4441,7 @@
 		(dnp no)
 		(uuid "a21b077e-7760-4b97-bedd-50b33ef5511c")
 		(property "Reference" "D2"
-			(at 78.74 68.5799 90)
+			(at 78.74 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +4450,7 @@
 			)
 		)
 		(property "Value" "600V"
-			(at 78.74 70.866 90)
+			(at 78.74 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +4459,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 71.12 69.85 0)
+			(at 71.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +4468,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_1_5ke_datasheet.pdf?assetguid=9d02c7d2-86a5-4bff-9251-966d6af02bf7"
-			(at 76.2 68.58 0)
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +4477,7 @@
 			)
 		)
 		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
-			(at 76.2 69.85 0)
+			(at 76.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +4486,7 @@
 			)
 		)
 		(property "MFG" "LITTELFUSE INC (VA)"
-			(at 76.2 69.85 90)
+			(at 76.2 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +4495,7 @@
 			)
 		)
 		(property "MPN" "1.5KE600A"
-			(at 82.55 73.406 90)
+			(at 82.55 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +4503,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "F7137CT-ND"
-			(at 76.2 69.85 90)
+			(at 76.2 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,8 +4527,234 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 190.5 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9da98fa-dc99-4ba7-bf0c-ac4e01a4d5e2")
+		(property "Reference" "C8"
+			(at 193.548 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 193.548 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 191.4652 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF, 450V Aluminum Electrolytic Capacitor, 35mm dia, 10mm pin spacing"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "450V"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c0469a7-233e-4dd2-8a5c-af2575a49644")
+		)
+		(pin "1"
+			(uuid "4cc3f8fe-a502-4c50-b0da-1aafe4d93fb3")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:EPM1210SJ")
+		(at 280.67 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba380d5a-789a-465c-986d-c1fec31c60be")
+		(property "Reference" "U1"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EPM1210SJ"
+			(at 257.81 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:EPM1210SJ_TMA"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/357/DOC012357581.pdf"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated DC-DC converter, wide input range. 12V output, 12W, 110-450V input"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Tamura"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EPM1210SJ"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "MT7382-ND"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "8368dab9-995c-4763-8e43-76c6b0814713")
+		)
+		(pin "7"
+			(uuid "105c4839-f74d-4ee7-a4a4-c5d32f6cd0c5")
+		)
+		(pin "9"
+			(uuid "5ce583da-17fd-46aa-b86d-a901c57f88cb")
+		)
+		(pin "4"
+			(uuid "4c9507ea-92a7-4f9d-b58e-1bbcf8ba5db9")
+		)
+		(pin "14"
+			(uuid "7d7acca5-dca5-4572-a354-8420846298ce")
+		)
+		(pin "10"
+			(uuid "88f93fc0-a68c-4f2c-b2b5-a9e88ab327a3")
+		)
+		(pin "8"
+			(uuid "30c144b8-d8b0-49a2-a847-be353b8814ed")
+		)
+		(pin "6"
+			(uuid "3c8bbe7a-1dce-4f4e-a304-c5b215654fb5")
+		)
+		(pin "11"
+			(uuid "61f219ad-249b-4c1a-952f-eb7315a43e58")
+		)
+		(pin "5"
+			(uuid "2701bb61-66b4-46f3-a743-f90a115d1941")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1.5KExxA")
-		(at 60.96 92.71 270)
+		(at 60.96 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2781,7 +4762,7 @@
 		(dnp no)
 		(uuid "c3f83134-0797-4a2f-a3f8-ab311fda39b5")
 		(property "Reference" "D3"
-			(at 63.5 91.4399 90)
+			(at 63.5 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +4771,7 @@
 			)
 		)
 		(property "Value" "600V"
-			(at 63.5 93.726 90)
+			(at 63.5 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +4780,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 55.88 92.71 0)
+			(at 55.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +4789,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_1_5ke_datasheet.pdf?assetguid=9d02c7d2-86a5-4bff-9251-966d6af02bf7"
-			(at 60.96 91.44 0)
+			(at 60.96 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +4798,7 @@
 			)
 		)
 		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
-			(at 60.96 92.71 0)
+			(at 60.96 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +4807,7 @@
 			)
 		)
 		(property "MFG" "LITTELFUSE INC (VA)"
-			(at 60.96 92.71 90)
+			(at 60.96 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +4816,7 @@
 			)
 		)
 		(property "MPN" "1.5KE600A"
-			(at 67.31 96.266 90)
+			(at 67.31 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +4824,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "F7137CT-ND"
-			(at 60.96 92.71 90)
+			(at 60.96 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,8 +4848,219 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 309.88 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7668f90-0e2a-46e3-8b9f-da8d13fe91de")
+		(property "Reference" "C4"
+			(at 313.69 80.3909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330uF"
+			(at 313.69 82.9309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 310.8452 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4067_A750"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330uF, 25V Polymer Capacitor"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A750KS337M1EAAE018"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "399-A750KS337M1EAAE018-ND"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5bdb335-4641-4336-b12b-9f2780f9020c")
+		)
+		(pin "1"
+			(uuid "efaab6a1-0cdb-4038-8738-46d24b9369f6")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 170.18 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dad1047e-b35e-46e2-aad4-236fc204d48a")
+		(property "Reference" "C6"
+			(at 173.228 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 173.228 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 171.1452 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF, 450V Aluminum Electrolytic Capacitor, 35mm dia, 10mm pin spacing"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "450V"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "072a3c1c-24d9-4144-9704-4514fa0f0919")
+		)
+		(pin "1"
+			(uuid "65820a84-7566-47cc-b387-2fa39b0acc70")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 101.6 67.31 0)
+		(at 101.6 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2877,15 +5069,6 @@
 		(fields_autoplaced yes)
 		(uuid "e5f739d8-18c0-479e-9475-a45690a89bc2")
 		(property "Reference" "R2"
-			(at 104.14 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
 			(at 104.14 68.5799 0)
 			(effects
 				(font
@@ -2894,8 +5077,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 99.822 67.31 90)
+		(property "Value" "1K"
+			(at 104.14 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 99.822 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +5096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 67.31 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +5105,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 67.31 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +5130,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1.5KExxA")
-		(at 60.96 69.85 270)
+		(at 60.96 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2946,7 +5138,7 @@
 		(dnp no)
 		(uuid "e6981f35-ba1a-4e56-b37f-e3f9bf62bf76")
 		(property "Reference" "D1"
-			(at 63.5 68.5799 90)
+			(at 63.5 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +5147,7 @@
 			)
 		)
 		(property "Value" "600V"
-			(at 63.5 70.866 90)
+			(at 63.5 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +5156,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 55.88 69.85 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +5165,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_1_5ke_datasheet.pdf?assetguid=9d02c7d2-86a5-4bff-9251-966d6af02bf7"
-			(at 60.96 68.58 0)
+			(at 60.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +5174,7 @@
 			)
 		)
 		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
-			(at 60.96 69.85 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +5183,7 @@
 			)
 		)
 		(property "MFG" "LITTELFUSE INC (VA)"
-			(at 60.96 69.85 90)
+			(at 60.96 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +5192,7 @@
 			)
 		)
 		(property "MPN" "1.5KE600A"
-			(at 67.31 73.406 90)
+			(at 67.31 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +5200,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "F7137CT-ND"
-			(at 60.96 69.85 90)
+			(at 60.96 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +5225,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 129.54 77.47 270)
+		(at 129.54 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3041,7 +5233,7 @@
 		(dnp no)
 		(uuid "e892dea4-ac12-4b4c-9fc7-81593c242dcf")
 		(property "Reference" "D7"
-			(at 128.27 83.566 90)
+			(at 128.27 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +5242,7 @@
 			)
 		)
 		(property "Value" "75V"
-			(at 128.016 85.598 90)
+			(at 128.016 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +5251,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 129.54 77.47 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX79.pdf"
-			(at 129.54 77.47 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +5269,7 @@
 			)
 		)
 		(property "Description" "Zener diode, 500mW, 75V"
-			(at 129.54 77.47 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +5278,7 @@
 			)
 		)
 		(property "MFG" "Nexperia"
-			(at 129.54 77.47 90)
+			(at 129.54 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,7 +5287,7 @@
 			)
 		)
 		(property "MPN" "BZX79-C75,133"
-			(at 129.54 77.47 90)
+			(at 129.54 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +5296,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "1727-6151-1-ND"
-			(at 129.54 77.47 90)
+			(at 129.54 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)

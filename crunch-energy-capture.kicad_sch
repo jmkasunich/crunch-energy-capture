@@ -638,6 +638,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:GDT_2Pin"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GD"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GDT_2Pin"
+				(at 7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gas Discharge Tube with 2 Pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "gdt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GDT_2Pin_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.5814)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GDT_2Pin_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2472,6 +2700,12 @@
 		(uuid "33dcb62b-7c72-44db-b507-685d290119ec")
 	)
 	(junction
+		(at 87.63 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345f96d8-d842-42a6-a9d4-bb32927bf5b9")
+	)
+	(junction
 		(at 39.37 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2590,6 +2824,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed90d708-f56c-45f4-bf64-1653abb68f60")
+	)
+	(junction
+		(at 87.63 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1e6a127-b37a-4861-88f9-a04c009a5600")
 	)
 	(junction
 		(at 294.64 87.63)
@@ -2885,6 +3125,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 102.87) (xy 87.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d048e5-c2b2-4f1b-91be-9e5460b686f1")
+	)
+	(wire
+		(pts
 			(xy 185.42 73.66) (xy 185.42 55.88)
 		)
 		(stroke
@@ -3102,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "8a254b81-551c-4c99-8ec4-8afd591542e9")
+	)
+	(wire
+		(pts
+			(xy 87.63 109.22) (xy 101.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b12fc44-3b82-4c80-ac6b-60e231f249b4")
 	)
 	(wire
 		(pts
@@ -3395,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 109.22) (xy 101.6 109.22)
+			(xy 66.04 109.22) (xy 87.63 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3472,6 +3732,16 @@
 			(type default)
 		)
 		(uuid "e2bb79c4-7903-4909-b598-e1944c840559")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74fc936-795b-4a39-96f7-5dc92ded582e")
 	)
 	(wire
 		(pts
@@ -4047,6 +4317,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 87.63 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "143a5381-10e0-4af8-bc1d-0cb75c02772f")
+		(property "Reference" "GD1"
+			(at 92.71 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "350V"
+			(at 92.71 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_5KP_P10.16mm_Horizontal"
+			(at 87.63 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gas Discharge Tube with 2 Pins"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "afc0fcb3-6c91-49cf-b761-5e7390cf2625")
+		)
+		(pin "1"
+			(uuid "b63482f2-0db8-4fd2-a4e0-9a6a2f92264d")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "GD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BZT52Bxx")
 		(at 127 68.58 270)
 		(unit 1)
@@ -4468,7 +4808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCR12DSNT4G"
+		(property "Value" "SCR"
 			(at 99.06 90.1699 0)
 			(effects
 				(font
@@ -6333,101 +6673,6 @@
 			(project "crunch-energy-capture"
 				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1.5KExxA")
-		(at 36.83 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfe25a60-16e4-4930-a97b-71dcf44c81dc")
-		(property "Reference" "D14"
-			(at 39.37 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "600V"
-			(at 39.37 148.336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 31.75 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_1_5ke_datasheet.pdf?assetguid=9d02c7d2-86a5-4bff-9251-966d6af02bf7"
-			(at 36.83 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1500W unidirectional TVS diode, DO-201AE"
-			(at 36.83 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "LITTELFUSE INC (VA)"
-			(at 36.83 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1.5KE600A"
-			(at 43.18 150.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" "F7137CT-ND"
-			(at 36.83 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "846b7ba3-5732-421c-a832-826bd664cc1d")
-		)
-		(pin "2"
-			(uuid "5fa852aa-5c8e-4586-8ed3-c22e26cf6e44")
-		)
-		(instances
-			(project "crunch-energy-capture"
-				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
-					(reference "D14")
 					(unit 1)
 				)
 			)

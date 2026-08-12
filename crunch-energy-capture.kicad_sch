@@ -4344,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5KP_P10.16mm_Horizontal"
+		(property "Footprint" "Library:GDT_Bourns_2053_SM"
 			(at 87.63 97.79 90)
 			(effects
 				(font
@@ -4353,7 +4353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/2053.pdf"
 			(at 87.63 97.79 90)
 			(effects
 				(font
@@ -4363,6 +4363,33 @@
 			)
 		)
 		(property "Description" "Gas Discharge Tube with 2 Pins"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Bourns, Inc"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2053-35-SM-RPLF"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "118-2053-35-SM-RPLFCT-ND"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -5312,16 +5339,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 281.94 116.84 0)
+		(at 39.37 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48407af5-8902-4e72-8bc1-e37f96925b05")
-		(property "Reference" "H3"
-			(at 284.48 115.5699 0)
+		(property "Reference" "H2"
+			(at 34.036 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,16 +5356,17 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 284.48 118.1099 0)
+			(at 41.91 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 281.94 116.84 0)
+			(at 39.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 281.94 116.84 0)
+			(at 39.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5384,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 281.94 116.84 0)
+			(at 39.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5395,7 @@
 		(instances
 			(project "crunch-energy-capture"
 				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5842,6 +5869,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
@@ -6069,7 +6097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f270487-6b5d-4d37-be0e-654d27e64544")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 278.13 90.1699 0)
 			(effects
 				(font
@@ -6085,6 +6113,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
@@ -6120,7 +6149,7 @@
 		(instances
 			(project "crunch-energy-capture"
 				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6191,6 +6220,75 @@
 			(project "crunch-energy-capture"
 				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 294.64 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "945e6e5e-6504-4aec-b6f1-725b983ce3b4")
+		(property "Reference" "H4"
+			(at 292.1 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 292.1 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e71d4df0-4503-4292-9475-553090771019")
+		)
+		(instances
+			(project "crunch-energy-capture"
+				(path "/0b60be89-a9a6-41bc-b4dc-31dfa586b7a1"
+					(reference "H4")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,239 @@
+(footprint "GDT_Bourns_2057"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Gas Discharge Tube Arrester, Bourns 2057 series 5.5mm dia, 6mm long, 0.5\" spacing, 0.8mm leads")
+	(tags "GDT Bourns 2057")
+	(property "Reference" "REF**"
+		(at 6.35 -5.12 0)
+		(layer "F.SilkS")
+		(uuid "30ac5257-0a49-4508-815a-627c14a08342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GDT_Bourns_2057"
+		(at 6.35 5.12 0)
+		(layer "F.Fab")
+		(uuid "4753e921-6c07-4d42-9a10-59b7558095f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfb06201-4ba8-4ff4-b71e-224eacfeb63a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea33baef-d771-4553-926b-b36ece7f497a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.778 -0.4064)
+		(end 3.048 -0.4064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7b7d6a0-c8e8-42a3-a656-473108a11fa3")
+	)
+	(fp_line
+		(start 1.778 0.4064)
+		(end 3.048 0.4064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d080aefb-f687-4f95-928d-9690f6ec116f")
+	)
+	(fp_line
+		(start 3.048 -3.048)
+		(end 3.048 3.048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4cfa545-ee50-4422-8be3-706d03e7076e")
+	)
+	(fp_line
+		(start 3.048 -3.048)
+		(end 9.652 -3.048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb6d7125-b20f-44a4-b857-51782111c667")
+	)
+	(fp_line
+		(start 3.048 3.048)
+		(end 9.652 3.048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fb0f8fe-a24c-4024-ae8b-4f9f9def87f2")
+	)
+	(fp_line
+		(start 9.652 -0.4064)
+		(end 10.922 -0.4064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67ce1d54-d801-43b7-856d-47b3c76fa187")
+	)
+	(fp_line
+		(start 9.652 0.4064)
+		(end 10.922 0.4064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db768972-8df9-43e7-bf9a-c064efd66c15")
+	)
+	(fp_line
+		(start 9.652 3.048)
+		(end 9.652 -3.048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e330ff5-270c-4442-8ccd-43983556a8f0")
+	)
+	(fp_rect
+		(start -1.85 -3.234)
+		(end 14.55 3.234)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a515c31a-5a3f-466f-9488-b10081201373")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f85f741c-e882-4a7c-82d4-c0f88a083e3f")
+	)
+	(fp_line
+		(start 12.7 0)
+		(end 10.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b65ec583-bae2-490b-8a55-e4f9dac6d16d")
+	)
+	(fp_rect
+		(start 2.866 -3.238)
+		(end 9.834 3.238)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "56ba8f23-281f-4ca3-97c5-3557596dcf83")
+	)
+	(fp_text user "K"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "dbe7bf0c-cc93-478d-8deb-33ea64f4cabe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 0 -2.6 0)
+		(layer "F.Fab")
+		(uuid "5e677d72-f88e-4f2b-8b2e-ae2264d0d43e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.025 0 0)
+		(layer "F.Fab")
+		(uuid "8ac35cf7-9308-42ed-ab01-cbd2e2e91e75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.048 3.048)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "226b9f31-8ff7-4baf-b9b3-f8f3aa3d1702")
+	)
+	(pad "3" thru_hole circle
+		(at 12.7 0)
+		(size 3.048 3.048)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d745247b-ef71-4e58-8d18-297bc446dcd2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_5KPW_P12.70mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,8 +1,8 @@
 Reference,Qty,Value,,Digi-Key_PN,MFG,MPN,Footprint
 C1,1,2.2nF,,1572-1358-ND,ILLINOIS CAPACITOR,222PPB162K,Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3
-C2,1,10nF,,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+C2,1,10nF,,490-GRM2165C2A103JA01JCT-ND,Murata Electronics,GRM2165C2A103JA01J,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
 "C3,C4",2,330uF,,399-A750KS337M1EAAE018-ND,Kemet,A750KS337M1EAAE018,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm
-"C5,C6,C7,C8,C9,C10",6,470uF,,,,,Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn
+"C5,C6,C7,C8,C9,C10",6,470uF,,565-4522-ND,Chemi-Con,ESMR451VSN471MA35S,Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn
 "D1,D2,D3,D4",4,600V,,18-1.5SMC600ACT-ND,LITTELFUSE INC (VA),  1.5SMC600A,Diode_SMD:D_SMC_Handsoldering
 D5,1,SCR,,MCR12DSNT4GOSCT-ND,LITTELFUSE INC (VA),MCR12DSNT4G,Package_TO_SOT_SMD:TO-252-2
 "D6,D7,D8,D9,D10",5,BZT52B75,,1801-BZT52B75RHGCT-ND,Tiawan Semiconductor,BZT52B75 RHG,Diode_SMD:D_SOD-123F
@@ -11,7 +11,7 @@ D12,1,MURS4100C,,31-MURS4100CCT-ND,Diodes Inc,MURS4100C,Diode_SMD:D_SMC_Handsold
 D13,1,LED,,754-2068-1-ND,KingBright,AA3528LSECKT/J3,Library:LED_Kingbright-SMD3528_3.5x2.8mm
 GD1,1,350V,,118-2053-35-SM-RPLFCT-ND,"Bourns, Inc",2053-35-SM-RPLF,Library:GDT_Bourns_2053_SM
 "J1, J2, J3, J4",1,various,,we have,Keystone,7693,Library:KEYSTONE_7693
-"J5,J6",2,Screw_Terminal_01x02,,re-use from buck conv,,,TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05502HBLC_1x02_P5.00mm_Horizontal
-"R1,R2",2,1K,,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+"J5,J6",2,Screw_Terminal_01x02,,2057-EBBA-02-C-SS-BU-ND,Adam Tech,EBBA-02-C-SS-BU,TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05502HBLC_1x02_P5.00mm_Horizontal
+"R1,R2",2,1K,,RMCF0805FT1K00CT-ND,Stackpole Electronics,RMCF0805FT1K00,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
 U1,1,EPM1210SJ,,MT7382-ND,Tamura,EPM1210SJ,Library:EPM1210SJ_TMA
 U2,1,XL-4015-Buck-PCB,,amazon,,,Library:XL4015-Buck-Module

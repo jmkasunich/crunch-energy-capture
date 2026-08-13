@@ -3235,7 +3235,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "b2645afd-41b5-4170-b2b8-7d91981876fa")
+			(uuid "1e39f5e4-35de-4a5b-8d58-a48d05e2522d")
 		)
 		(pad "1" connect circle
 			(at 0 0)
@@ -3245,7 +3245,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "b2645afd-41b5-4170-b2b8-7d91981876fa")
+			(uuid "cec97168-adeb-46f3-9144-0b150e9b60c0")
 		)
 		(embedded_fonts no)
 	)
@@ -4000,17 +4000,6 @@
 			(uuid "f1f79774-5df8-4e7a-bccb-48f221e83550")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_Hi-Link_HLK-30Mxx.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05502HBLC_1x02_P5.00mm_Horizontal"
 		(layer "F.Cu")
@@ -39197,17 +39186,6 @@
 			(uuid "861ee02e-f82d-46d6-be7b-f856a711d577")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_5KPW_P12.70mm_Horizontal.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
 		(layer "F.Cu")
